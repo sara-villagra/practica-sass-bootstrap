@@ -3,4 +3,12 @@
   padding: 0;
 }
 
+.container {
+  background-color: black;
+}
+
+.nav-link {
+  color: white;
+}
+
 /*# sourceMappingURL=style.css.map */
