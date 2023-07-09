@@ -20,4 +20,34 @@
   justify-content: end;
 }
 
+.container__baner {
+  position: relative;
+  width: 100%;
+}
+
+.container__baner h1 {
+  position: absolute;
+  top: 15rem;
+  left: 22rem;
+  color: white;
+  font-size: 40px;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+.carrusel {
+  margin-top: 20px;
+}
+
+.animate__animated.animate__bounce.animate__slideInLeft {
+  animation: slideInLeft; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s;
+}
+
+.animate__animated.animate__bounce.animate__slideInRight {
+  --animate-duration:2s;
+}
+
 /*# sourceMappingURL=style.css.map */
