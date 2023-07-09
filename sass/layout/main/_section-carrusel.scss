@@ -1,6 +1,9 @@
 .carrusel {
     margin-top: 20px;
+    width: 90%;
+
 }
+
 .animate__animated.animate__bounce.animate__slideInLeft   {
     animation: slideInLeft ; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 1s; 

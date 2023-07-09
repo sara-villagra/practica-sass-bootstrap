@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .bg-propio {
+    background-color: rgb(26, 26, 59);
+  }
+  
+  .nav-link {
+    color: white;
+  }
+  
+  .navbar-toggler-icon {
+    color: white;
+  }
+  
+  .collapse {
+    display: flex;
+    justify-content: end;
+  }
+  
+  .container__baner {
+    position: relative;
+    width: 100%;
+  }
+  
+  .container__baner h1 {
+    position: absolute;
+    top: 15rem;
+    left: 22rem;
+    color: white;
+    font-size: 40px;
+  }
+  
+  .img-fluid {
+    width: 100%;
+  }
+  
+  .carrusel {
+    margin-top: 20px;
+    width: 90%;
+  }
+  
+  .animate__animated.animate__bounce.animate__slideInLeft {
+    animation: slideInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s;
+  }
+  
+  .animate__animated.animate__bounce.animate__slideInRight {
+    --animate-duration:2s;
+  }
+  
+  .card-agus {
+    width: 100%;
+    height: 90%;
+  }
+  
