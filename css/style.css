@@ -72,4 +72,11 @@
   margin: 2rem auto;
 }
 
+@media (max-width: 425px) {
+  .somos__img.container-fluid.d-flex.justify-content-center {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
